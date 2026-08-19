@@ -1,20 +1,21 @@
-Suspension Calculator PWA - installation téléphone
+PWA Suspension Calculator v10
 
-Android / Chrome / Edge :
-1. Héberger le dossier sur un serveur HTTPS ou ouvrir depuis un espace qui sert les fichiers correctement.
-2. Ouvrir index.html dans Chrome/Edge.
-3. Menu ⋮ puis Installer l'application ou Ajouter à l'écran d'accueil.
-
-Important : une PWA installable nécessite généralement HTTPS. Si tu ouvres juste le fichier en file://, le calculateur fonctionne, mais l'installation PWA et le mode hors ligne via service worker peuvent être bloqués.
-
-iPhone / Safari :
-1. Ouvrir l'adresse HTTPS de l'app dans Safari.
-2. Bouton Partager.
-3. Sur l'écran d'accueil.
-
-Contenu :
+A uploader à la racine du dépôt GitHub Pages :
 - index.html
 - manifest.json
 - service-worker.js
-- icons/icon-192.png
-- icons/icon-512.png
+- dossier icons
+
+Après upload :
+1. Ouvrir https://momogord-suspension.github.io/Suspension-Calculator/manifest.json
+   -> doit afficher du JSON.
+2. Ouvrir https://momogord-suspension.github.io/Suspension-Calculator/icons/icon-192.png
+   -> doit afficher l'icône.
+3. Ouvrir le site sur Android avec Chrome.
+4. Menu ⋮ -> Installer l'application.
+
+Si Chrome affiche encore seulement "Créer un raccourci" :
+- vider le cache du site,
+- supprimer l'ancien raccourci,
+- recharger la page,
+- attendre quelques secondes.
